@@ -7,7 +7,7 @@ $sidebar-sm-columns:    4;
 
 // Colors
 $brand-primary:         #27aae1;
-$blue-dark:					#202736;
+$blue-dark:				#202736;
 
 
 $bootstrap-sass-asset-helper: false !default;
@@ -408,7 +408,7 @@ $navbar-default-toggle-border-color:       #ddd !default;
 //=== Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      lighten($gray-light, 15%) !default;
-$navbar-inverse-bg:                         #202736 !default;
+$navbar-inverse-bg:                         $blue-dark !default;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
 
 // Inverted navbar links
@@ -416,7 +416,7 @@ $navbar-inverse-link-color:                 lighten($gray-light, 15%) !default;
 $navbar-inverse-link-hover-color:           #fff !default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
-$navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-link-active-bg:             $blue-dark !default;
 $navbar-inverse-link-disabled-color:        #444 !default;
 $navbar-inverse-link-disabled-bg:           transparent !default;
 
@@ -426,9 +426,9 @@ $navbar-inverse-brand-hover-color:          #fff !default;
 $navbar-inverse-brand-hover-bg:             transparent !default;
 
 // Inverted navbar toggle
-$navbar-inverse-toggle-hover-bg:            #333 !default;
+$navbar-inverse-toggle-hover-bg:            darken($blue-dark, 50%) !default;
 $navbar-inverse-toggle-icon-bar-bg:         #fff !default;
-$navbar-inverse-toggle-border-color:        #333 !default;
+$navbar-inverse-toggle-border-color:        lighten($blue-dark, 5%) !default;
 
 
 //== Navs
