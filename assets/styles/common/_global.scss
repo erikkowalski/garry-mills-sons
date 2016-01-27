@@ -14,3 +14,7 @@ img.wp-post-image {
     max-width: 100%;
     height: auto;
 }
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+	background: $blue-dark;
+}
