@@ -51,8 +51,12 @@
 } // -- .coursel.fade
 	.featured {
 		margin: 0;
-		padding: 0;
+		padding: 6em 0 4em 0;
 		background: black;
+		border-top: 30px solid black;
+		background-image: url(../images/fire-bg.jpg);
+		background-repeat: no-repeat;
+
 			.col-md-6 {
 				padding: 0;
 			}
@@ -61,6 +65,9 @@
 			}
 		h1 {
 			color: white;
+			text-align: center;
+			padding-bottom: 1em;
+			text-transform: uppercase;
 		}
 
 	}
