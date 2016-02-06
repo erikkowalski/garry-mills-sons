@@ -71,3 +71,15 @@
 		<span class="sr-only">Next</span>
 	</a>
 </div><!-- /.carousel -->
+
+<section class="featured">
+<div class="col-md-6 text">
+	<h1>Integrity</h1>
+	<h1>Craftsmanship</h1>
+	<h1>Commitment</h1>
+</div>
+<div class="col-md-6">
+	<img class="img-responsive bg-img" src="<?php the_field('middle_section'); ?>" alt="">
+</div>
+
+</section>
