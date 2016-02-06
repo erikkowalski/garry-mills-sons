@@ -23,7 +23,7 @@
 					<h2> <?php   the_field('slide_one_subhead_one'); ?></h2>
 					<hr/>
 					<h3> <?php  the_field('slide_one_subhead_two'); ?></h3>
-					<p><a class="btn btn-lg btn-primary" href="our-menu/lunch-menu/" role="button">View Menu</a></p>
+					<p><a class="btn btn-lg btn-info" href="our-menu/lunch-menu/" role="button">View Home</a></p>
 				</div>
 			</div>
 		</div>
@@ -34,7 +34,7 @@
 			<div class="menu container">
 				<div class="carousel-caption">
 					<h1> <?php    the_field('slide_two_headline'); ?></h1>
-					<p><a class="btn btn-lg btn-primary" href="our-menu/lunch-menu/" role="button">View Menu</a></p>
+					<p><a class="btn btn-lg btn-info" href="our-menu/lunch-menu/" role="button">View Home</a></p>
 				</div>
 			</div>
 		</div>
@@ -44,7 +44,7 @@
 			<div class="menu container">
 				<div class="carousel-caption">
 					<h1> <?php    the_field('slide_three_headline'); ?></h1>
-					<p><a class="btn btn-lg btn-primary" href="our-menu/lunch-menu/" role="button">View Menu</a></p>
+					<p><a class="btn btn-lg btn-info" href="our-menu/lunch-menu/" role="button">View Home</a></p>
 				</div>
 			</div>
 		</div>
@@ -54,7 +54,7 @@
 			<div class="menu container">
 				<div class="carousel-caption">
 					<h1> <?php    the_field('slide_four_headline'); ?></h1>
-					<p><a class="btn btn-lg btn-primary" href="our-menu/lunch-menu/" role="button">View Menu</a></p>
+					<p><a class="btn btn-lg btn-info" href="our-menu/lunch-menu/" role="button">View Home</a></p>
 				</div>
 			</div>
 		</div>
