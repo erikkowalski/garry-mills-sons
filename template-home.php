@@ -72,7 +72,7 @@
 	</a>
 </div><!-- /.carousel -->
 
-<section class="featured">
+<section class="featured clearfix">
 <div class="col-md-6 text">
 	<h1>Integrity</h1>
 	<h1>Craftsmanship</h1>

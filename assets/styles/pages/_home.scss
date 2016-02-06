@@ -50,8 +50,17 @@
     }
 } // -- .coursel.fade
 	.featured {
-		.bg-img {
-			position: relative;
+		margin: 0;
+		padding: 0;
+		background: black;
+			.col-md-6 {
+				padding: 0;
+			}
+			.bg-img {
+				position: relative;
+			}
+		h1 {
+			color: white;
 		}
 
 	}
