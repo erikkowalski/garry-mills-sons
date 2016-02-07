@@ -75,13 +75,14 @@
 <section class="featured clearfix">
 <div class=" text">
 <h1>Gary Mills &amp; Sons LLC</h1>
+<hr>
 	<h2>Integrity
 		Craftsmanship
 		Commitment</h2>
 	<p>Comprehensive planning, working with the best teams, &amp; measuring successes = clients saving time &amp; money while receiving the best product in the business.</p>
 
 </div>
-<div class="projects">
+<div class="projects clearfix">
 <h3>Featured Projects</h3>
 	<div class="col-md-4">
 		<h3><?php the_field('project_one_title'); ?></h3>
