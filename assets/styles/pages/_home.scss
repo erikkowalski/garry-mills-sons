@@ -1,10 +1,13 @@
 .home {
+	background-image:url(../images/dark_wood.png);
 
 	//background-image: url(../images/concrete_seamless.png);
 
 
 	.main {
-		background: #2c2c2c;
+		background: #151515;
+
+
 	}
 	.navbar {
 		margin-bottom: 0;
@@ -15,9 +18,12 @@
 		padding: 0;
 	}
 
+	.wrap {
+		margin: 0 auto;
+		max-width: 2000px;
+	}
 
-.carousel.fade
-{
+.carousel.fade {
     opacity: 1;
 
     .item
@@ -52,12 +58,11 @@
 	.featured {
 		margin: 0;
 		padding: 6em 0 0 0;
-		background: black;
 		border-top: 10px solid black;
-		background-image: url(../images/fire-bg.jpg);
 		background-repeat: no-repeat;
 		max-width: 1400px;
 		margin: 0 auto;
+		background: #202736;
 
 			.col-md-6 {
 				padding: 0;
@@ -66,7 +71,7 @@
 				position: relative;
 			}
 		h1,h2,h3 {
-			color: white;
+			//color: white;
 			text-align: center;
 			padding-bottom: 1em;
 			text-transform: uppercase;
@@ -84,11 +89,15 @@
 			margin: 0 auto;
 			max-width: 35em;
 		}
+		hr {
+			max-width: 80em;
+			margin: 0 auto;
+		}
 
 	}
 
 	.projects {
-		background: #dadada;
+
 	}
 
 } // - - </.home>
