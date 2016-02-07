@@ -55,9 +55,10 @@
         }
     }
 } // -- .coursel.fade
+
 	.featured {
 		margin: 0;
-		padding: 6em 0 0 0;
+		padding: 3em 0 0 0;
 		border-top: 10px solid black;
 		background-repeat: no-repeat;
 		max-width: 1400px;
@@ -71,32 +72,80 @@
 				position: relative;
 			}
 		h1,h2,h3 {
-			//color: white;
+			color: white;
 			text-align: center;
 			padding-bottom: 1em;
 			text-transform: uppercase;
 			//font-size: 1.9em;
 		}
+
 		h1 {
 			font-family: $font-family-serif;
+			margin-bottom: 0;
+			padding-bottom: 0.5em;
+		}
+		h2 {
+			font-weight: 100;
+			margin-bottom: 0;
+			padding-bottom: 0.3em;
+			color: $brand-primary;
 		}
 
 		.text p {
 			text-align: center;
-			font-size: 1.2em;
+			font-size: 1.25em;
 			color: white;
 			padding: 10px 20px;
 			margin: 0 auto;
-			max-width: 35em;
+			max-width: 30em;
+			font-weight: 300;
+			margin-bottom: 1.5em;
 		}
 		hr {
-			max-width: 80em;
+			max-width: 60em;
 			margin: 0 auto;
 		}
 
 	}
 
 	.projects {
+		background-image:url(../images/dark_wood.png);
+		@media (min-width:$screen-sm){
+		background: white;
+		}
+		padding-bottom: 3em;
+		h3 {
+			background: $blue-dark;
+			margin: 0;
+			padding: 10px;
+			font-weight: 100;
+
+		}
+		>h3 {
+			background-image:url(../images/dark_wood.png);
+			font-family: $font-family-serif;
+			text-transform: capitalize;
+			color: $brand-primary;
+			font-weight: 100;
+			font-size: 2.2em;
+			margin-top: 1.2em;
+			margin-bottom: 1.2em;
+			//background: white;
+		}
+
+		a {
+			text-align: center;
+			display: inline-block;
+			width: 100%;
+			padding: 1em;
+			background: $blue-dark;
+			color: white;
+
+		}
+
+		.home {
+			margin-bottom: 1em;
+		}
 
 	}
 

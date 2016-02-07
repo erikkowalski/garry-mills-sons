@@ -81,25 +81,30 @@
 		Commitment</h2>
 	<p>Comprehensive planning, working with the best teams, &amp; measuring successes = clients saving time &amp; money while receiving the best product in the business.</p>
 
+	<div class="container-triangle-2">
+		<div class="triangle-l" style="background: #64404b;"></div>
+		<div class="triangle-r" style="background: #64404b;"></div>
+	</div>
 </div>
 <div class="projects clearfix">
 <h3>Featured Projects</h3>
-	<div class="col-md-4">
+	<div class="col-md-4 home">
 		<h3><?php the_field('project_one_title'); ?></h3>
 		<img class="img-responsive" src="<?php the_field('featured_project_one'); ?>" alt="Garry Mills and Sons, featured custom home Project one">
-		<a href="<?php the_field('project_one_link'); ?>">View Home</a>
+		<a href="<?php the_field('project_one_link'); ?>">
+			<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home </a>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4 home">
 		<h3><?php the_field('project_two_title'); ?></h3>
 		<img class="img-responsive" src="<?php the_field('featured_project_two'); ?>" alt="Garry Mills and Sons, featured custom home Project two">
-		<a href="<?php the_field('project_two_link'); ?>">View Home</a>
+		<a href="<?php the_field('project_two_link'); ?>"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home</a>
 
 
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4 home">
 		<h3><?php the_field('project_three_title'); ?></h3>
 		<img class="img-responsive" src="<?php the_field('featured_project_three'); ?>" alt="Garry Mills and Sons, featured custom home Project three">
-		<a href="<?php the_field('project_three_link'); ?>">View Home</a>
+		<a href="<?php the_field('project_three_link'); ?>"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home</a>
 
 	</div>
 </div>
