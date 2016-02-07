@@ -88,24 +88,27 @@
 </div>
 <div class="projects clearfix">
 <h3>Featured Projects</h3>
-	<div class="col-md-4 home">
+<hr>
+<div class="f-row">
+	<div class="col-md-4 f-home">
 		<h3><?php the_field('project_one_title'); ?></h3>
-		<img class="img-responsive" src="<?php the_field('featured_project_one'); ?>" alt="Garry Mills and Sons, featured custom home Project one">
-		<a href="<?php the_field('project_one_link'); ?>">
+		<a href="<?php the_field('project_one_link'); ?>"><img class="img-responsive" src="<?php the_field('featured_project_one'); ?>" alt="Garry Mills and Sons, featured custom home Project one"></a>
+		<a class="text-link" href="<?php the_field('project_one_link'); ?>">
 			<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home </a>
 	</div>
-	<div class="col-md-4 home">
+	<div class="col-md-4 f-home">
 		<h3><?php the_field('project_two_title'); ?></h3>
-		<img class="img-responsive" src="<?php the_field('featured_project_two'); ?>" alt="Garry Mills and Sons, featured custom home Project two">
-		<a href="<?php the_field('project_two_link'); ?>"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home</a>
+		<a href="<?php the_field('project_two_link'); ?>"><img class="img-responsive" src="<?php the_field('featured_project_two'); ?>" alt="Garry Mills and Sons, featured custom home Project two"></a>
+		<a class="text-link" href="<?php the_field('project_two_link'); ?>"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home</a>
 
 
 	</div>
-	<div class="col-md-4 home">
+	<div class="col-md-4 f-home">
 		<h3><?php the_field('project_three_title'); ?></h3>
-		<img class="img-responsive" src="<?php the_field('featured_project_three'); ?>" alt="Garry Mills and Sons, featured custom home Project three">
-		<a href="<?php the_field('project_three_link'); ?>"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home</a>
+		<a href="<?php the_field('project_three_link'); ?>"><img class="img-responsive" src="<?php the_field('featured_project_three'); ?>" alt="Garry Mills and Sons, featured custom home Project three"></a>
+		<a class="text-link" href="<?php the_field('project_three_link'); ?>"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home</a>
 
+	</div>
 	</div>
 </div>
 

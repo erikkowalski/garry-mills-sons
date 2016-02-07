@@ -1,22 +1,17 @@
 .home {
 	background-image:url(../images/dark_wood.png);
-
 	//background-image: url(../images/concrete_seamless.png);
-
 
 	.main {
 		background: #151515;
-
-
+		padding: 0;
 	}
 	.navbar {
 		margin-bottom: 0;
 		//border-bottom: 15px solid rgb(195, 195, 195);
 	}
 
-	.main {
-		padding: 0;
-	}
+	hr { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
 
 	.wrap {
 		margin: 0 auto;
@@ -100,6 +95,10 @@
 			max-width: 30em;
 			font-weight: 300;
 			margin-bottom: 1.5em;
+			@media (min-width:$screen-sm){
+				margin-top: 1em;
+				margin-bottom: 4em;
+			}
 		}
 		hr {
 			max-width: 60em;
@@ -114,36 +113,47 @@
 		background: white;
 		}
 		padding-bottom: 3em;
+
+		.f-row {
+			margin-top: 2em;
+		}
 		h3 {
 			background: $blue-dark;
 			margin: 0;
-			padding: 10px;
+			padding: 1em 0;
 			font-weight: 100;
+			letter-spacing: 0.1em;
 
 		}
 		>h3 {
 			background-image:url(../images/dark_wood.png);
+			@media (min-width:$screen-sm){
+				background: white;
+				font-size: 3em;
+			}
 			font-family: $font-family-serif;
 			text-transform: capitalize;
 			color: $brand-primary;
 			font-weight: 100;
 			font-size: 2.2em;
 			margin-top: 1.2em;
-			margin-bottom: 1.2em;
+			margin-bottom: 0.5em;
+			padding: 0;
 			//background: white;
 		}
 
-		a {
+		.text-link {
 			text-align: center;
 			display: inline-block;
 			width: 100%;
 			padding: 1em;
 			background: $blue-dark;
 			color: white;
+			font-size: 1.3em;
 
 		}
 
-		.home {
+		.f-home {
 			margin-bottom: 1em;
 		}
 
