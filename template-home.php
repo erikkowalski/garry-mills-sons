@@ -40,7 +40,7 @@
 		</div>
 
 		<div class="item">
-			<img  src="<?php    the_field('slider_image_three'); ?>" alt="Second slide">
+			<img  src="<?php the_field('slider_image_three'); ?>" alt="Second slide">
 			<div class="menu container">
 				<div class="carousel-caption">
 					<h1> <?php    the_field('slide_three_headline'); ?></h1>
@@ -74,10 +74,33 @@
 
 <section class="featured clearfix">
 <div class=" text">
+<h1>Gary Mills &amp; Sons LLC</h1>
+	<h2>Integrity
+		Craftsmanship
+		Commitment</h2>
 	<p>Comprehensive planning, working with the best teams, &amp; measuring successes = clients saving time &amp; money while receiving the best product in the business.</p>
-	<h1>Integrity</h1>
-	<h1>Craftsmanship</h1>
-	<h1>Commitment</h1>
+
+</div>
+<div class="projects">
+<h3>Featured Projects</h3>
+	<div class="col-md-4">
+		<h3><?php the_field('project_one_title'); ?></h3>
+		<img class="img-responsive" src="<?php the_field('featured_project_one'); ?>" alt="Garry Mills and Sons, featured custom home Project one">
+		<a href="<?php the_field('project_one_link'); ?>">View Home</a>
+	</div>
+	<div class="col-md-4">
+		<h3><?php the_field('project_two_title'); ?></h3>
+		<img class="img-responsive" src="<?php the_field('featured_project_two'); ?>" alt="Garry Mills and Sons, featured custom home Project two">
+		<a href="<?php the_field('project_two_link'); ?>">View Home</a>
+
+
+	</div>
+	<div class="col-md-4">
+		<h3><?php the_field('project_three_title'); ?></h3>
+		<img class="img-responsive" src="<?php the_field('featured_project_three'); ?>" alt="Garry Mills and Sons, featured custom home Project three">
+		<a href="<?php the_field('project_three_link'); ?>">View Home</a>
+
+	</div>
 </div>
 
 </section>
