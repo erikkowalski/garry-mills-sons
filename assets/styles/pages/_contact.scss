@@ -2,6 +2,9 @@
 
 .contact {
 	background: black;
+	background-image: url(../images/contact-fire.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
 
  h1 {
 	text-align: center;
@@ -10,7 +13,7 @@
 	//letter-spacing: 0.5em;
 	color: white;
 	font-size: 4em;
-	font-weight: 100;
+	font-weight: 300;
 }
 
  h2 {
@@ -23,14 +26,31 @@
 }
 
 
- form label {
-	letter-spacing: 0.15em;
-	color: white;
-	font-size: 1.5em;
-	font-weight: 900;
-	text-transform: uppercase;
-	margin-bottom: 0.4em;
-}
+
+	.main {
+		max-width: 600px;
+		margin: 0 auto;
+		float: none;
+
+
+
+		 form label {
+			letter-spacing: 0.15em;
+			color: white;
+			font-size: 1.5em;
+			font-weight: 400;
+			text-transform: uppercase;
+			margin-bottom: 0.4em;
+		}
+
+		form {
+			background: rgba(0, 0, 0, 0.68);
+			padding: 1em;
+			border-radius: 10px;
+		}
+
+	}
+
 
 form label span {
 	font-weight: 100;
@@ -47,13 +67,9 @@ form label span {
 	max-width: 600px;
 }
 
-.content-info {
-
-	border-top: 5px solid black;
-}
 
 
-input {
+.contact-submit input {
 	color: #555;
 	background-color: #fff;
 	background-image: none;
@@ -63,7 +79,15 @@ input {
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	width: 100%;
 }
+
+	.contact-form input[type='text'],
+	.contact-form input[type='email'] {
+		width: 100%;
+		border-radius: 6px;
+		margin-bottom: 2em;
+	}
 
 textarea {
 	color: #555;
@@ -77,6 +101,10 @@ textarea {
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+	.contact-form textarea {
+		width: 100%;
+	}
+
 #contact-form  .radio{
 	font-weight: 100;
 	text-transform: none;
@@ -88,8 +116,8 @@ textarea {
 }
 
 .contact-submit input{
-	background-color: #c12a44;
-	border-color: #ac253d;
+	background-color: $blue-dark;
+	border-color: $blue-dark;
 	font-family: lato,sans-serif;
 	color: white;
 	text-transform: uppercase;
@@ -104,53 +132,9 @@ textarea {
 
 
 .contact-submit input:hover{
-	background: #972135;
+	background: $brand-primary;
 }
 
 } // .contact
 
-/*---------------------------------
-MEDIA QUERIES FOR RESPONSIVE DESIGN
-------------------*/
 
-
-
-
-/* --- iPad --- */
-
-
-
-@media (min-width: 768px) {
-
-	.contact {
-	//	margin: 0 auto;
-		//max-width: 80%;
-	}
-
-}
-
-
-/* -----------------///// @screen-sm-min /////-----------> */
-
-@media (min-width: 768px) and (max-width: 992px) {
-
-
-
-
-}
-
-/* -----------------///// @screen-lg-min /////-----------> */
-/*
-
-@media (min-width: 992px) and (max-width: 1200px) {
-
-
-
-/* -----------------///// @screen-lg-min /////-----------> */
-
-@media (min-width: 1200px) {
-
-
-
-
-} /* <------ close 1200px breakpoint///// @screen-lg-min /////-------*/

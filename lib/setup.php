@@ -88,6 +88,7 @@ function display_sidebar() {
     is_page_template('template-custom.php'),
     is_page_template('page.php'),
     is_page_template('template-custom.php'),
+    is_page_template('index.php'),
     is_page('about'),
     is_page('contact'),
     is_page('our-work'),

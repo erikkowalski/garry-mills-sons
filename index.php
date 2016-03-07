@@ -1,3 +1,4 @@
+<h1>test</h1>
 <?php get_template_part('templates/page', 'header'); ?>
 
 <?php if (!have_posts()) : ?>
