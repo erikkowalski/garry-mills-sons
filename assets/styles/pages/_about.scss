@@ -1,6 +1,48 @@
 .about {
+	.navbar {
+		margin-bottom: 0;
+	}
+
     .main {
-        max-width: 600px;
+		 @media(max-width:$screen-sm){
+			 max-width: 540px;
+
+		 }
+       max-width: 600px;
+		 margin: 0 auto;
+		 float: none;
+		 background: white;
+		 @media(min-width:$screen-md){
+			 padding: 0 20px
+		 }
     }
+
+	.page-header h1{
+		text-align: center;
+		padding-top: 1em;
+		margin-top: 5em;
+		text-transform: uppercase;
+		transition: margin 1s;
+		@media(min-width:$screen-sm){
+			margin-top: 9em;
+		}
+		@media(min-width:$screen-md){
+			margin-top: 11em;
+		}
+		@media(min-width:$screen-lg){
+			margin-top: 15em;
+		}
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.container-fluid {
+		background-image:url(../images/kitchen.jpg);
+		//background-attachment:fixed;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 
 }

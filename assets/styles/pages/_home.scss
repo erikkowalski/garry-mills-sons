@@ -80,21 +80,23 @@
 			padding-bottom: 0.5em;
 		}
 		h2 {
-			font-weight: 100;
+			font-weight: 300;
 			margin-bottom: 0;
 			padding-bottom: 0.3em;
 			color: $brand-primary;
+			letter-spacing: 0.05em;
 		}
 
 		.text p {
 			text-align: center;
 			font-size: 1.25em;
 			color: white;
-			padding: 10px 20px;
+			padding: 0px 20px;
 			margin: 0 auto;
 			max-width: 30em;
 			font-weight: 300;
 			margin-bottom: 1.5em;
+
 			@media (min-width:$screen-sm){
 				margin-top: 1em;
 				margin-bottom: 4em;
@@ -121,8 +123,9 @@
 			background: $blue-dark;
 			margin: 0;
 			padding: 1em 0;
-			font-weight: 100;
+			font-weight: 300;
 			letter-spacing: 0.1em;
+			text-transform: capitalize;
 
 		}
 		>h3 {
@@ -131,15 +134,19 @@
 				background: white;
 				font-size: 3em;
 			}
-			font-family: $font-family-serif;
-			text-transform: capitalize;
-			color: $brand-primary;
-			font-weight: 100;
+
+			text-transform: uppercase;
+			color: #333333;
+			font-weight: 500;
 			font-size: 2.2em;
 			margin-top: 1.2em;
 			margin-bottom: 0.5em;
 			padding: 0;
 			//background: white;
+			@media (min-width:$screen-md){
+				margin-top: 2em;
+
+			}
 		}
 
 		.text-link {
@@ -155,6 +162,10 @@
 
 		.f-home {
 			margin-bottom: 1em;
+		}
+		@media (min-width:$screen-md){
+			padding-bottom:8em;
+
 		}
 
 	}
