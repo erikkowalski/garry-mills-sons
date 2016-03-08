@@ -2,10 +2,49 @@
 	.main {
 		margin: 0;
 		padding: 0;
+		position: relative;
+	}
+
+	.entry-title {
+		text-align: center;
+		@media (min-width:$screen-sm){
+		position: absolute;
+			top: 5%;
+			right: 5%;
+			z-index: 999;
+			background: white;
+			padding:0.5em 1em;
+		}
 	}
 
 	.gallery-item {
+
 		float: left;
+		//height: 200px;
+		max-width: 300px;
+		//height:200px;
+		margin: 5px;
+	}
+
+	.gallery {
+		@media(max-width:630px){
+			max-width: 310px;
+		}
+
+		@media(min-width:620px)and(max-width:930px){
+			max-width:  620px;
+		}
+		@media(min-width:930px)and(max-width:1240px){
+			max-width:  930px;
+		}
+		max-width: 1240px;
+		margin: 0 auto;
+
+	}
+
+	.post-nav {
+		max-width: 1240px;
+		background: green;
 	}
 
 } //.single

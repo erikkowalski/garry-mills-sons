@@ -36,6 +36,16 @@ function setup() {
   // http://codex.wordpress.org/Function_Reference/add_image_size
   add_theme_support('post-thumbnails');
 
+	// without parameter -> Post Thumbnail (as set by theme using set_post_thumbnail_size())
+	the_post_thumbnail();
+
+	the_post_thumbnail('thumbnail');       // Thumbnail (default 150px x 150px max)
+	the_post_thumbnail('medium');          // Medium resolution (default 300px x 300px max)
+	the_post_thumbnail('large');           // Large resolution (default 640px x 640px max)
+	the_post_thumbnail('full');            // Original image resolution (unmodified)
+
+	the_post_thumbnail( array(100,100) );  // Other resolutions
+
   // Enable post formats
   // http://codex.wordpress.org/Post_Formats
   add_theme_support('post-formats', ['aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio']);

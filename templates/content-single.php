@@ -20,9 +20,7 @@
 				  <img  src="<?php the_field('post_slider_three'); ?>" alt="Second slide">
 			  </div>
 
-			  <div class="item">
-				  <img  src="<?php    the_field('post_slider_four'); ?>" alt="Second slide">
-			  </div>
+
 		  </div>
 
 		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
