@@ -82,14 +82,29 @@
 		h2 {
 			font-weight: 300;
 			margin-bottom: 0;
-			padding-bottom: 0.3em;
+			padding-bottom: 0.1em;
 			color: $brand-primary;
 			letter-spacing: 0.05em;
+			@media (min-width:$screen-sm){
+				font-size: 3em;
+				max-width: 700px;
+				margin: 0 auto;
+				margin-top: 0.4em;
+
+			}
+		}
+
+		.type-logo {
+			max-width: 550px;
+			margin: 0 auto;
 		}
 
 		.text p {
 			text-align: center;
 			font-size: 1.25em;
+			@media (min-width:$screen-sm){
+				font-size: 1.4em;
+			}
 			color: white;
 			padding: 0px 20px;
 			margin: 0 auto;
@@ -111,6 +126,7 @@
 
 	.projects {
 		background-image:url(../images/dark_wood.png);
+
 		@media (min-width:$screen-sm){
 		background: white;
 		}
@@ -130,6 +146,9 @@
 		}
 		>h3 {
 			background-image:url(../images/dark_wood.png);
+			@media (max-width:$screen-sm){
+				color: white;
+			}
 			@media (min-width:$screen-sm){
 				background: white;
 				font-size: 3em;

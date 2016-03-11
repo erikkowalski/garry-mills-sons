@@ -23,7 +23,7 @@
 					<h2> <?php   the_field('slide_one_subhead_one'); ?></h2>
 					<hr/>
 					<h3> <?php  the_field('slide_one_subhead_two'); ?></h3>
-					<p><a class="btn btn-lg btn-info" href="our-menu/lunch-menu/" role="button">View Home</a></p>
+					<p><a class="btn btn-lg btn-info" href="rose-cottage/" role="button">View Home</a></p>
 				</div>
 			</div>
 		</div>
@@ -34,7 +34,7 @@
 			<div class="menu container">
 				<div class="carousel-caption">
 					<h1> <?php    the_field('slide_two_headline'); ?></h1>
-					<p><a class="btn btn-lg btn-info" href="our-menu/lunch-menu/" role="button">View Home</a></p>
+					<p><a class="btn btn-lg btn-info" href="cove-house/" role="button">View Home</a></p>
 				</div>
 			</div>
 		</div>
@@ -44,7 +44,7 @@
 			<div class="menu container">
 				<div class="carousel-caption">
 					<h1> <?php    the_field('slide_three_headline'); ?></h1>
-					<p><a class="btn btn-lg btn-info" href="our-menu/lunch-menu/" role="button">View Home</a></p>
+					<p><a class="btn btn-lg btn-info" href="pool-house/" role="button">View Home</a></p>
 				</div>
 			</div>
 		</div>
@@ -54,7 +54,7 @@
 			<div class="menu container">
 				<div class="carousel-caption">
 					<h1> <?php    the_field('slide_four_headline'); ?></h1>
-					<p><a class="btn btn-lg btn-info" href="our-menu/lunch-menu/" role="button">View Home</a></p>
+					<p><a class="btn btn-lg btn-info" href="rose-cottage/" role="button">View Home</a></p>
 				</div>
 			</div>
 		</div>
@@ -74,7 +74,11 @@
 
 <section class="featured clearfix">
 <div class=" text">
-<h1>Gary Mills &amp; Sons LLC</h1>
+	<h1 class="sr-only">Gary Mills &amp; Sons LLC</h1>
+<div class="type-logo">
+
+	<img class="img-responsive" src="<?= get_template_directory_uri(); ?>/dist/images/Garr-Mills-&-Sons-type.png" alt="Garry Mills & Sons Logo">
+	</div>
 <hr>
 	<h2>Integrity
 		Craftsmanship
@@ -89,7 +93,7 @@
 <div class="projects clearfix">
 <h3>Featured Projects</h3>
 <hr>
-<div class="f-row">
+<div class="f-row clearfix">
 	<div class="col-md-4 f-home">
 		<h3><?php the_field('project_one_title'); ?></h3>
 		<a href="<?php the_field('project_one_link'); ?>"><img class="img-responsive" src="<?php the_field('featured_project_one'); ?>" alt="Garry Mills and Sons, featured custom home Project one"></a>
@@ -100,7 +104,6 @@
 		<h3><?php the_field('project_two_title'); ?></h3>
 		<a href="<?php the_field('project_two_link'); ?>"><img class="img-responsive" src="<?php the_field('featured_project_two'); ?>" alt="Garry Mills and Sons, featured custom home Project two"></a>
 		<a class="text-link" href="<?php the_field('project_two_link'); ?>"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View Home</a>
-
 
 	</div>
 	<div class="col-md-4 f-home">

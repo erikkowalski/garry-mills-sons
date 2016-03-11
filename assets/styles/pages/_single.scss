@@ -1,8 +1,17 @@
 .single {
+
+	.container-fluid {
+		background: darken($blue-dark, 10%);
+	}
 	.main {
-		margin: 0;
+		background: white;
+		margin: 0 auto;
 		padding: 0;
 		position: relative;
+		max-width: 2000px;
+		@media(min-width:1999px){
+			float: none;
+		}
 	}
 
 	.entry-title {
@@ -42,9 +51,12 @@
 
 	}
 
-	.post-nav {
-		max-width: 1240px;
-		background: green;
-	}
 
 } //.single
+
+.post-nav {
+	max-width: 1200px;
+	margin: 0 auto;
+	float: none;
+
+}

@@ -41,7 +41,7 @@
     <div class="entry-content clearfix">
       <?php the_content(); ?>
     </div>
-	  <nav class="post-nav">
+	  <nav class="post-nav clearfix">
 		  <ul class="pager">
 			  <li class="previous"><?php previous_post_link( '%link', '&larr; %title' ); ?></li>
 			  <li class="next"><?php next_post_link( '%link', '%title &rarr;' ); ?></li>
